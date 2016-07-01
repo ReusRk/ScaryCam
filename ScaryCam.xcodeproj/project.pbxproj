@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		697F24DE1D263BB5002FD55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24DD1D263BB5002FD55C /* main.m */; };
+		697F24E11D263BB5002FD55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24E01D263BB5002FD55C /* AppDelegate.m */; };
+		697F24E41D263BB5002FD55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24E31D263BB5002FD55C /* ViewController.m */; };
+		697F24E71D263BB5002FD55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F24E51D263BB5002FD55C /* Main.storyboard */; };
+		697F24E91D263BB5002FD55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697F24E81D263BB5002FD55C /* Assets.xcassets */; };
+		697F24EC1D263BB5002FD55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F24EA1D263BB5002FD55C /* LaunchScreen.storyboard */; };
+		697F24F71D263BB5002FD55C /* ScaryCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24F61D263BB5002FD55C /* ScaryCamTests.m */; };
+		697F25021D263BB5002FD55C /* ScaryCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25011D263BB5002FD55C /* ScaryCamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		697F24F31D263BB5002FD55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 697F24D11D263BB5002FD55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 697F24D81D263BB5002FD55C;
+			remoteInfo = ScaryCam;
+		};
+		697F24FE1D263BB5002FD55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 697F24D11D263BB5002FD55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 697F24D81D263BB5002FD55C;
+			remoteInfo = ScaryCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		697F24D91D263BB5002FD55C /* ScaryCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		697F24DD1D263BB5002FD55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		697F24DF1D263BB5002FD55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		697F24E01D263BB5002FD55C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		697F24E21D263BB5002FD55C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		697F24E31D263BB5002FD55C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		697F24E61D263BB5002FD55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		697F24E81D263BB5002FD55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		697F24EB1D263BB5002FD55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		697F24ED1D263BB5002FD55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697F24F21D263BB5002FD55C /* ScaryCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		697F24F61D263BB5002FD55C /* ScaryCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryCamTests.m; sourceTree = "<group>"; };
+		697F24F81D263BB5002FD55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697F24FD1D263BB5002FD55C /* ScaryCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		697F25011D263BB5002FD55C /* ScaryCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryCamUITests.m; sourceTree = "<group>"; };
+		697F25031D263BB5002FD55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697F24D61D263BB5002FD55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24EF1D263BB5002FD55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24FA1D263BB5002FD55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		697F24D01D263BB5002FD55C = {
+			isa = PBXGroup;
+			children = (
+				697F24DB1D263BB5002FD55C /* ScaryCam */,
+				697F24F51D263BB5002FD55C /* ScaryCamTests */,
+				697F25001D263BB5002FD55C /* ScaryCamUITests */,
+				697F24DA1D263BB5002FD55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		697F24DA1D263BB5002FD55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				697F24D91D263BB5002FD55C /* ScaryCam.app */,
+				697F24F21D263BB5002FD55C /* ScaryCamTests.xctest */,
+				697F24FD1D263BB5002FD55C /* ScaryCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		697F24DB1D263BB5002FD55C /* ScaryCam */ = {
+			isa = PBXGroup;
+			children = (
+				697F24DF1D263BB5002FD55C /* AppDelegate.h */,
+				697F24E01D263BB5002FD55C /* AppDelegate.m */,
+				697F24E21D263BB5002FD55C /* ViewController.h */,
+				697F24E31D263BB5002FD55C /* ViewController.m */,
+				697F24E51D263BB5002FD55C /* Main.storyboard */,
+				697F24E81D263BB5002FD55C /* Assets.xcassets */,
+				697F24EA1D263BB5002FD55C /* LaunchScreen.storyboard */,
+				697F24ED1D263BB5002FD55C /* Info.plist */,
+				697F24DC1D263BB5002FD55C /* Supporting Files */,
+			);
+			path = ScaryCam;
+			sourceTree = "<group>";
+		};
+		697F24DC1D263BB5002FD55C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				697F24DD1D263BB5002FD55C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		697F24F51D263BB5002FD55C /* ScaryCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				697F24F61D263BB5002FD55C /* ScaryCamTests.m */,
+				697F24F81D263BB5002FD55C /* Info.plist */,
+			);
+			path = ScaryCamTests;
+			sourceTree = "<group>";
+		};
+		697F25001D263BB5002FD55C /* ScaryCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				697F25011D263BB5002FD55C /* ScaryCamUITests.m */,
+				697F25031D263BB5002FD55C /* Info.plist */,
+			);
+			path = ScaryCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		697F24D81D263BB5002FD55C /* ScaryCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697F25061D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCam" */;
+			buildPhases = (
+				697F24D51D263BB5002FD55C /* Sources */,
+				697F24D61D263BB5002FD55C /* Frameworks */,
+				697F24D71D263BB5002FD55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryCam;
+			productName = ScaryCam;
+			productReference = 697F24D91D263BB5002FD55C /* ScaryCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		697F24F11D263BB5002FD55C /* ScaryCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697F25091D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamTests" */;
+			buildPhases = (
+				697F24EE1D263BB5002FD55C /* Sources */,
+				697F24EF1D263BB5002FD55C /* Frameworks */,
+				697F24F01D263BB5002FD55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				697F24F41D263BB5002FD55C /* PBXTargetDependency */,
+			);
+			name = ScaryCamTests;
+			productName = ScaryCamTests;
+			productReference = 697F24F21D263BB5002FD55C /* ScaryCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		697F24FC1D263BB5002FD55C /* ScaryCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697F250C1D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamUITests" */;
+			buildPhases = (
+				697F24F91D263BB5002FD55C /* Sources */,
+				697F24FA1D263BB5002FD55C /* Frameworks */,
+				697F24FB1D263BB5002FD55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				697F24FF1D263BB5002FD55C /* PBXTargetDependency */,
+			);
+			name = ScaryCamUITests;
+			productName = ScaryCamUITests;
+			productReference = 697F24FD1D263BB5002FD55C /* ScaryCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		697F24D11D263BB5002FD55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fluxtech_MacMini1;
+				TargetAttributes = {
+					697F24D81D263BB5002FD55C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					697F24F11D263BB5002FD55C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 697F24D81D263BB5002FD55C;
+					};
+					697F24FC1D263BB5002FD55C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 697F24D81D263BB5002FD55C;
+					};
+				};
+			};
+			buildConfigurationList = 697F24D41D263BB5002FD55C /* Build configuration list for PBXProject "ScaryCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 697F24D01D263BB5002FD55C;
+			productRefGroup = 697F24DA1D263BB5002FD55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				697F24D81D263BB5002FD55C /* ScaryCam */,
+				697F24F11D263BB5002FD55C /* ScaryCamTests */,
+				697F24FC1D263BB5002FD55C /* ScaryCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		697F24D71D263BB5002FD55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697F24EC1D263BB5002FD55C /* LaunchScreen.storyboard in Resources */,
+				697F24E91D263BB5002FD55C /* Assets.xcassets in Resources */,
+				697F24E71D263BB5002FD55C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24F01D263BB5002FD55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24FB1D263BB5002FD55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		697F24D51D263BB5002FD55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697F24E41D263BB5002FD55C /* ViewController.m in Sources */,
+				697F24E11D263BB5002FD55C /* AppDelegate.m in Sources */,
+				697F24DE1D263BB5002FD55C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24EE1D263BB5002FD55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697F24F71D263BB5002FD55C /* ScaryCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697F24F91D263BB5002FD55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697F25021D263BB5002FD55C /* ScaryCamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		697F24F41D263BB5002FD55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 697F24D81D263BB5002FD55C /* ScaryCam */;
+			targetProxy = 697F24F31D263BB5002FD55C /* PBXContainerItemProxy */;
+		};
+		697F24FF1D263BB5002FD55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 697F24D81D263BB5002FD55C /* ScaryCam */;
+			targetProxy = 697F24FE1D263BB5002FD55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		697F24E51D263BB5002FD55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697F24E61D263BB5002FD55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		697F24EA1D263BB5002FD55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				697F24EB1D263BB5002FD55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		697F25041D263BB6002FD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		697F25051D263BB6002FD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		697F25071D263BB6002FD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaryCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		697F25081D263BB6002FD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScaryCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		697F250A1D263BB6002FD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScaryCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryCam.app/ScaryCam";
+			};
+			name = Debug;
+		};
+		697F250B1D263BB6002FD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScaryCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryCam.app/ScaryCam";
+			};
+			name = Release;
+		};
+		697F250D1D263BB6002FD55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScaryCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaryCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		697F250E1D263BB6002FD55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScaryCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaryCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		697F24D41D263BB5002FD55C /* Build configuration list for PBXProject "ScaryCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697F25041D263BB6002FD55C /* Debug */,
+				697F25051D263BB6002FD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		697F25061D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697F25071D263BB6002FD55C /* Debug */,
+				697F25081D263BB6002FD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		697F25091D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697F250A1D263BB6002FD55C /* Debug */,
+				697F250B1D263BB6002FD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		697F250C1D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697F250D1D263BB6002FD55C /* Debug */,
+				697F250E1D263BB6002FD55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 697F24D11D263BB5002FD55C /* Project object */;
+}
