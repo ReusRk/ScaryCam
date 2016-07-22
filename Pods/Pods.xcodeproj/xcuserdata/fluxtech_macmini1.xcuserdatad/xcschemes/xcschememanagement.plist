@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ASIHTTPRequest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ScaryCam.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ScaryCamTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ScaryCamUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>24DE73D3665D0A64A9BA73A4261C4C26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B33607E2A037308BA1858CC97938DD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B610425B4C2F57C4BDC9D8FD1211DD1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC320BF3B09D57852C0D12961DFE9A76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDCE26CDE8794AF8E72BAE43A355AFC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

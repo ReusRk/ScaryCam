@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D51C8FE61D2432F8B9A48E7 /* libPods-ScaryCamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41977125A7A275F483E20233 /* libPods-ScaryCamUITests.a */; };
+		62AA6CAAA2CC5FED715217F1 /* libPods-ScaryCamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B335DE59EC25E8F319DC1EA7 /* libPods-ScaryCamTests.a */; };
+		6943C7B21D2A8F2700B7F11E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943C7B11D2A8F2700B7F11E /* SVProgressHUD.m */; };
 		697F24DE1D263BB5002FD55C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24DD1D263BB5002FD55C /* main.m */; };
 		697F24E11D263BB5002FD55C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24E01D263BB5002FD55C /* AppDelegate.m */; };
 		697F24E41D263BB5002FD55C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24E31D263BB5002FD55C /* ViewController.m */; };
@@ -15,6 +18,72 @@
 		697F24EC1D263BB5002FD55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F24EA1D263BB5002FD55C /* LaunchScreen.storyboard */; };
 		697F24F71D263BB5002FD55C /* ScaryCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F24F61D263BB5002FD55C /* ScaryCamTests.m */; };
 		697F25021D263BB5002FD55C /* ScaryCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25011D263BB5002FD55C /* ScaryCamUITests.m */; };
+		697F25111D263C82002FD55C /* SPUserResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25101D263C82002FD55C /* SPUserResizableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		697F25351D263DC3002FD55C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25151D263DC3002FD55C /* MKAnnotationView+WebCache.m */; };
+		697F25361D263DC3002FD55C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25171D263DC3002FD55C /* NSData+ImageContentType.m */; };
+		697F25371D263DC3002FD55C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25191D263DC3002FD55C /* SDImageCache.m */; };
+		697F25381D263DC3002FD55C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F251B1D263DC3002FD55C /* SDWebImageCompat.m */; };
+		697F25391D263DC3002FD55C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F251D1D263DC3002FD55C /* SDWebImageDecoder.m */; };
+		697F253A1D263DC3002FD55C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F251F1D263DC3002FD55C /* SDWebImageDownloader.m */; };
+		697F253B1D263DC3002FD55C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25211D263DC3002FD55C /* SDWebImageDownloaderOperation.m */; };
+		697F253C1D263DC3002FD55C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25231D263DC3002FD55C /* SDWebImageManager.m */; };
+		697F253D1D263DC3002FD55C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25261D263DC3002FD55C /* SDWebImagePrefetcher.m */; };
+		697F253E1D263DC3002FD55C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25281D263DC3002FD55C /* UIButton+WebCache.m */; };
+		697F253F1D263DC3002FD55C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F252A1D263DC3002FD55C /* UIImage+GIF.m */; };
+		697F25401D263DC3002FD55C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F252C1D263DC3002FD55C /* UIImage+MultiFormat.m */; };
+		697F25411D263DC3002FD55C /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F252E1D263DC3002FD55C /* UIImage+WebP.m */; };
+		697F25421D263DC3002FD55C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25301D263DC3002FD55C /* UIImageView+HighlightedWebCache.m */; };
+		697F25431D263DC3002FD55C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25321D263DC3002FD55C /* UIImageView+WebCache.m */; };
+		697F25441D263DC3002FD55C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25341D263DC3002FD55C /* UIView+WebCacheOperation.m */; };
+		697F254C1D263EAA002FD55C /* ScaryCam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697F254B1D263EAA002FD55C /* ScaryCam.plist */; };
+		697F256D1D263F24002FD55C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F254E1D263F24002FD55C /* back.png */; };
+		697F256E1D263F24002FD55C /* bad face.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F254F1D263F24002FD55C /* bad face.png */; };
+		697F256F1D263F24002FD55C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25501D263F24002FD55C /* bg.png */; };
+		697F25701D263F24002FD55C /* bottom frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25511D263F24002FD55C /* bottom frame.png */; };
+		697F25711D263F24002FD55C /* Buy Coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25521D263F24002FD55C /* Buy Coins.png */; };
+		697F25721D263F24002FD55C /* Buy Coins2.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25531D263F24002FD55C /* Buy Coins2.png */; };
+		697F25731D263F24002FD55C /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25541D263F24002FD55C /* cancel.png */; };
+		697F25741D263F24002FD55C /* change mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25551D263F24002FD55C /* change mask.png */; };
+		697F25751D263F24002FD55C /* choose from lib.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25561D263F24002FD55C /* choose from lib.png */; };
+		697F25761D263F24002FD55C /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25571D263F24002FD55C /* done.png */; };
+		697F25771D263F24002FD55C /* get coins for free.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25581D263F24002FD55C /* get coins for free.png */; };
+		697F25781D263F24002FD55C /* get your mask on.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25591D263F24002FD55C /* get your mask on.png */; };
+		697F25791D263F24002FD55C /* goodface.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F255A1D263F24002FD55C /* goodface.png */; };
+		697F257A1D263F24002FD55C /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F255B1D263F24002FD55C /* lock.png */; };
+		697F257B1D263F24002FD55C /* mrsmonster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 697F255C1D263F24002FD55C /* mrsmonster.ttf */; };
+		697F257C1D263F24002FD55C /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F255D1D263F24002FD55C /* next.png */; };
+		697F257D1D263F24002FD55C /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F255E1D263F24002FD55C /* previous.png */; };
+		697F257E1D263F24002FD55C /* rate this app.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F255F1D263F24002FD55C /* rate this app.png */; };
+		697F257F1D263F24002FD55C /* rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25601D263F24002FD55C /* rate.png */; };
+		697F25801D263F24002FD55C /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25611D263F24002FD55C /* reset.png */; };
+		697F25811D263F24002FD55C /* restore.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25621D263F24002FD55C /* restore.png */; };
+		697F25821D263F24002FD55C /* romove ads.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25631D263F24002FD55C /* romove ads.png */; };
+		697F25831D263F24002FD55C /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25641D263F24002FD55C /* sample.png */; };
+		697F25841D263F24002FD55C /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25651D263F24002FD55C /* save.png */; };
+		697F25851D263F24002FD55C /* scary cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25661D263F24002FD55C /* scary cam.png */; };
+		697F25861D263F24002FD55C /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25671D263F24002FD55C /* settings.png */; };
+		697F25871D263F24002FD55C /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25681D263F24002FD55C /* share.png */; };
+		697F25881D263F24002FD55C /* take a pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F25691D263F24002FD55C /* take a pic.png */; };
+		697F25891D263F24002FD55C /* top frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F256A1D263F24002FD55C /* top frame.png */; };
+		697F258A1D263F24002FD55C /* unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F256B1D263F24002FD55C /* unlocked.png */; };
+		697F258B1D263F24002FD55C /* watch video for 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F256C1D263F24002FD55C /* watch video for 5.png */; };
+		697F258D1D263F3F002FD55C /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 697F258C1D263F3F002FD55C /* set.png */; };
+		697F258F1D263FB1002FD55C /* Main_iPhone6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F258E1D263FB1002FD55C /* Main_iPhone6.storyboard */; };
+		697F25911D26401D002FD55C /* Main_iPhone6p.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F25901D26401D002FD55C /* Main_iPhone6p.storyboard */; };
+		697F25931D264055002FD55C /* Main_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F25921D264055002FD55C /* Main_iPhone5.storyboard */; };
+		697F25951D26407F002FD55C /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697F25941D26407F002FD55C /* Main_ipad.storyboard */; };
+		697F25A01D264138002FD55C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F259F1D264138002FD55C /* libz.tbd */; };
+		697F25AB1D2641BD002FD55C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F25451D263DE6002FD55C /* OpenAL.framework */; };
+		697F25B11D264230002FD55C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F25B01D264230002FD55C /* AVFoundation.framework */; };
+		697F25BF1D264429002FD55C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25B81D264429002FD55C /* SettingViewController.m */; };
+		697F25C01D264429002FD55C /* ChangeMaskCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25BA1D264429002FD55C /* ChangeMaskCollectionViewCell.m */; };
+		697F25C11D264429002FD55C /* ChangeMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25BC1D264429002FD55C /* ChangeMaskViewController.m */; };
+		697F25C21D264429002FD55C /* EditScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25BE1D264429002FD55C /* EditScreenViewController.m */; };
+		697F25C51D2644EB002FD55C /* QueueFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 697F25C41D2644EB002FD55C /* QueueFTP.m */; };
+		697F25CA1D26492F002FD55C /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F25C91D26492F002FD55C /* Vorbis.framework */; };
+		697F25CC1D26495F002FD55C /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F25CB1D26495F002FD55C /* Ogg.framework */; };
+		697F25CE1D264976002FD55C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697F25CD1D264976002FD55C /* GoogleMobileAds.framework */; };
+		D61A32E2C4CB3566D38D1DB6 /* libPods-ScaryCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7FE21215117F0A06C12A5F /* libPods-ScaryCam.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +104,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B6779E5A6489858C997D69C /* Pods-ScaryCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCamTests/Pods-ScaryCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		41977125A7A275F483E20233 /* libPods-ScaryCamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryCamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7B27E9290A4048D068A140 /* Pods-ScaryCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCam/Pods-ScaryCam.debug.xcconfig"; sourceTree = "<group>"; };
+		6943C7B01D2A8F2700B7F11E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		6943C7B11D2A8F2700B7F11E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		697F24D91D263BB5002FD55C /* ScaryCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697F24DD1D263BB5002FD55C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		697F24DF1D263BB5002FD55C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +125,103 @@
 		697F24FD1D263BB5002FD55C /* ScaryCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		697F25011D263BB5002FD55C /* ScaryCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryCamUITests.m; sourceTree = "<group>"; };
 		697F25031D263BB5002FD55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697F250F1D263C82002FD55C /* SPUserResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUserResizableView.h; sourceTree = "<group>"; };
+		697F25101D263C82002FD55C /* SPUserResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPUserResizableView.m; sourceTree = "<group>"; };
+		697F25141D263DC3002FD55C /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		697F25151D263DC3002FD55C /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		697F25161D263DC3002FD55C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		697F25171D263DC3002FD55C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		697F25181D263DC3002FD55C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		697F25191D263DC3002FD55C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		697F251A1D263DC3002FD55C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		697F251B1D263DC3002FD55C /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		697F251C1D263DC3002FD55C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		697F251D1D263DC3002FD55C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		697F251E1D263DC3002FD55C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		697F251F1D263DC3002FD55C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		697F25201D263DC3002FD55C /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		697F25211D263DC3002FD55C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		697F25221D263DC3002FD55C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		697F25231D263DC3002FD55C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		697F25241D263DC3002FD55C /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		697F25251D263DC3002FD55C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		697F25261D263DC3002FD55C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		697F25271D263DC3002FD55C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		697F25281D263DC3002FD55C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		697F25291D263DC3002FD55C /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		697F252A1D263DC3002FD55C /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		697F252B1D263DC3002FD55C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		697F252C1D263DC3002FD55C /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		697F252D1D263DC3002FD55C /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		697F252E1D263DC3002FD55C /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		697F252F1D263DC3002FD55C /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		697F25301D263DC3002FD55C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		697F25311D263DC3002FD55C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		697F25321D263DC3002FD55C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		697F25331D263DC3002FD55C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		697F25341D263DC3002FD55C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		697F25451D263DE6002FD55C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		697F25471D263DEE002FD55C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		697F25491D263E34002FD55C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Documents/Archive 2/29-7/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		697F254B1D263EAA002FD55C /* ScaryCam.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScaryCam.plist; sourceTree = "<group>"; };
+		697F254E1D263F24002FD55C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		697F254F1D263F24002FD55C /* bad face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bad face.png"; sourceTree = "<group>"; };
+		697F25501D263F24002FD55C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		697F25511D263F24002FD55C /* bottom frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom frame.png"; sourceTree = "<group>"; };
+		697F25521D263F24002FD55C /* Buy Coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buy Coins.png"; sourceTree = "<group>"; };
+		697F25531D263F24002FD55C /* Buy Coins2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buy Coins2.png"; sourceTree = "<group>"; };
+		697F25541D263F24002FD55C /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		697F25551D263F24002FD55C /* change mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "change mask.png"; sourceTree = "<group>"; };
+		697F25561D263F24002FD55C /* choose from lib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choose from lib.png"; sourceTree = "<group>"; };
+		697F25571D263F24002FD55C /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		697F25581D263F24002FD55C /* get coins for free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get coins for free.png"; sourceTree = "<group>"; };
+		697F25591D263F24002FD55C /* get your mask on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get your mask on.png"; sourceTree = "<group>"; };
+		697F255A1D263F24002FD55C /* goodface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goodface.png; sourceTree = "<group>"; };
+		697F255B1D263F24002FD55C /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		697F255C1D263F24002FD55C /* mrsmonster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mrsmonster.ttf; sourceTree = "<group>"; };
+		697F255D1D263F24002FD55C /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		697F255E1D263F24002FD55C /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		697F255F1D263F24002FD55C /* rate this app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rate this app.png"; sourceTree = "<group>"; };
+		697F25601D263F24002FD55C /* rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate.png; sourceTree = "<group>"; };
+		697F25611D263F24002FD55C /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		697F25621D263F24002FD55C /* restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restore.png; sourceTree = "<group>"; };
+		697F25631D263F24002FD55C /* romove ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "romove ads.png"; sourceTree = "<group>"; };
+		697F25641D263F24002FD55C /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		697F25651D263F24002FD55C /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		697F25661D263F24002FD55C /* scary cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scary cam.png"; sourceTree = "<group>"; };
+		697F25671D263F24002FD55C /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		697F25681D263F24002FD55C /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		697F25691D263F24002FD55C /* take a pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take a pic.png"; sourceTree = "<group>"; };
+		697F256A1D263F24002FD55C /* top frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top frame.png"; sourceTree = "<group>"; };
+		697F256B1D263F24002FD55C /* unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlocked.png; sourceTree = "<group>"; };
+		697F256C1D263F24002FD55C /* watch video for 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watch video for 5.png"; sourceTree = "<group>"; };
+		697F258C1D263F3F002FD55C /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		697F258E1D263FB1002FD55C /* Main_iPhone6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone6.storyboard; sourceTree = "<group>"; };
+		697F25901D26401D002FD55C /* Main_iPhone6p.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone6p.storyboard; sourceTree = "<group>"; };
+		697F25921D264055002FD55C /* Main_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone5.storyboard; sourceTree = "<group>"; };
+		697F25941D26407F002FD55C /* Main_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_ipad.storyboard; sourceTree = "<group>"; };
+		697F259F1D264138002FD55C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		697F25AE1D264208002FD55C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.6.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		697F25B01D264230002FD55C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		697F25B71D264429002FD55C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		697F25B81D264429002FD55C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		697F25B91D264429002FD55C /* ChangeMaskCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMaskCollectionViewCell.h; sourceTree = "<group>"; };
+		697F25BA1D264429002FD55C /* ChangeMaskCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMaskCollectionViewCell.m; sourceTree = "<group>"; };
+		697F25BB1D264429002FD55C /* ChangeMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMaskViewController.h; sourceTree = "<group>"; };
+		697F25BC1D264429002FD55C /* ChangeMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMaskViewController.m; sourceTree = "<group>"; };
+		697F25BD1D264429002FD55C /* EditScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditScreenViewController.h; sourceTree = "<group>"; };
+		697F25BE1D264429002FD55C /* EditScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditScreenViewController.m; sourceTree = "<group>"; };
+		697F25C31D2644EB002FD55C /* QueueFTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueFTP.h; sourceTree = "<group>"; };
+		697F25C41D2644EB002FD55C /* QueueFTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueFTP.m; sourceTree = "<group>"; };
+		697F25C91D26492F002FD55C /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vorbis.framework; sourceTree = "<group>"; };
+		697F25CB1D26495F002FD55C /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogg.framework; sourceTree = "<group>"; };
+		697F25CD1D264976002FD55C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		7CD3C87FCB3F6E66B5EB11FF /* Pods-ScaryCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCam/Pods-ScaryCam.release.xcconfig"; sourceTree = "<group>"; };
+		8B7FE21215117F0A06C12A5F /* libPods-ScaryCam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryCam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A666E36FBB6DA6C2D1D0DDDF /* Pods-ScaryCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCamTests/Pods-ScaryCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA77BE60CC1EBDB595B9F6F5 /* Pods-ScaryCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCamUITests/Pods-ScaryCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B335DE59EC25E8F319DC1EA7 /* libPods-ScaryCamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScaryCamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89A82C8D7DE63DD6888BB29 /* Pods-ScaryCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaryCamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScaryCamUITests/Pods-ScaryCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +229,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697F25B11D264230002FD55C /* AVFoundation.framework in Frameworks */,
+				697F25AB1D2641BD002FD55C /* OpenAL.framework in Frameworks */,
+				697F25CC1D26495F002FD55C /* Ogg.framework in Frameworks */,
+				697F25A01D264138002FD55C /* libz.tbd in Frameworks */,
+				D61A32E2C4CB3566D38D1DB6 /* libPods-ScaryCam.a in Frameworks */,
+				697F25CE1D264976002FD55C /* GoogleMobileAds.framework in Frameworks */,
+				697F25CA1D26492F002FD55C /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +243,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AA6CAAA2CC5FED715217F1 /* libPods-ScaryCamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +251,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D51C8FE61D2432F8B9A48E7 /* libPods-ScaryCamUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE4AEA961C39775D7DC429F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E7B27E9290A4048D068A140 /* Pods-ScaryCam.debug.xcconfig */,
+				7CD3C87FCB3F6E66B5EB11FF /* Pods-ScaryCam.release.xcconfig */,
+				A666E36FBB6DA6C2D1D0DDDF /* Pods-ScaryCamTests.debug.xcconfig */,
+				3B6779E5A6489858C997D69C /* Pods-ScaryCamTests.release.xcconfig */,
+				D89A82C8D7DE63DD6888BB29 /* Pods-ScaryCamUITests.debug.xcconfig */,
+				AA77BE60CC1EBDB595B9F6F5 /* Pods-ScaryCamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		697F24D01D263BB5002FD55C = {
 			isa = PBXGroup;
 			children = (
+				697F25CF1D2649D0002FD55C /* SupportingPlist */,
 				697F24DB1D263BB5002FD55C /* ScaryCam */,
 				697F24F51D263BB5002FD55C /* ScaryCamTests */,
 				697F25001D263BB5002FD55C /* ScaryCamUITests */,
 				697F24DA1D263BB5002FD55C /* Products */,
+				5DE4AEA961C39775D7DC429F /* Pods */,
+				F6FDA728E1410501E789CCB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +297,24 @@
 		697F24DB1D263BB5002FD55C /* ScaryCam */ = {
 			isa = PBXGroup;
 			children = (
+				697F25C31D2644EB002FD55C /* QueueFTP.h */,
+				697F25C41D2644EB002FD55C /* QueueFTP.m */,
+				697F25961D26409F002FD55C /* StoryBoard */,
+				697F254D1D263F24002FD55C /* IMages */,
+				697F25131D263DC3002FD55C /* SDWebImage */,
+				697F25121D263CC4002FD55C /* SPUserResizableView */,
 				697F24DF1D263BB5002FD55C /* AppDelegate.h */,
 				697F24E01D263BB5002FD55C /* AppDelegate.m */,
+				697F25B71D264429002FD55C /* SettingViewController.h */,
+				697F25B81D264429002FD55C /* SettingViewController.m */,
+				697F25B91D264429002FD55C /* ChangeMaskCollectionViewCell.h */,
+				697F25BA1D264429002FD55C /* ChangeMaskCollectionViewCell.m */,
+				697F25BB1D264429002FD55C /* ChangeMaskViewController.h */,
+				697F25BC1D264429002FD55C /* ChangeMaskViewController.m */,
+				697F25BD1D264429002FD55C /* EditScreenViewController.h */,
+				697F25BE1D264429002FD55C /* EditScreenViewController.m */,
 				697F24E21D263BB5002FD55C /* ViewController.h */,
 				697F24E31D263BB5002FD55C /* ViewController.m */,
-				697F24E51D263BB5002FD55C /* Main.storyboard */,
 				697F24E81D263BB5002FD55C /* Assets.xcassets */,
 				697F24EA1D263BB5002FD55C /* LaunchScreen.storyboard */,
 				697F24ED1D263BB5002FD55C /* Info.plist */,
@@ -140,6 +349,136 @@
 			path = ScaryCamUITests;
 			sourceTree = "<group>";
 		};
+		697F25121D263CC4002FD55C /* SPUserResizableView */ = {
+			isa = PBXGroup;
+			children = (
+				6943C7B01D2A8F2700B7F11E /* SVProgressHUD.h */,
+				6943C7B11D2A8F2700B7F11E /* SVProgressHUD.m */,
+				697F250F1D263C82002FD55C /* SPUserResizableView.h */,
+				697F25101D263C82002FD55C /* SPUserResizableView.m */,
+			);
+			name = SPUserResizableView;
+			sourceTree = "<group>";
+		};
+		697F25131D263DC3002FD55C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				697F25141D263DC3002FD55C /* MKAnnotationView+WebCache.h */,
+				697F25151D263DC3002FD55C /* MKAnnotationView+WebCache.m */,
+				697F25161D263DC3002FD55C /* NSData+ImageContentType.h */,
+				697F25171D263DC3002FD55C /* NSData+ImageContentType.m */,
+				697F25181D263DC3002FD55C /* SDImageCache.h */,
+				697F25191D263DC3002FD55C /* SDImageCache.m */,
+				697F251A1D263DC3002FD55C /* SDWebImageCompat.h */,
+				697F251B1D263DC3002FD55C /* SDWebImageCompat.m */,
+				697F251C1D263DC3002FD55C /* SDWebImageDecoder.h */,
+				697F251D1D263DC3002FD55C /* SDWebImageDecoder.m */,
+				697F251E1D263DC3002FD55C /* SDWebImageDownloader.h */,
+				697F251F1D263DC3002FD55C /* SDWebImageDownloader.m */,
+				697F25201D263DC3002FD55C /* SDWebImageDownloaderOperation.h */,
+				697F25211D263DC3002FD55C /* SDWebImageDownloaderOperation.m */,
+				697F25221D263DC3002FD55C /* SDWebImageManager.h */,
+				697F25231D263DC3002FD55C /* SDWebImageManager.m */,
+				697F25241D263DC3002FD55C /* SDWebImageOperation.h */,
+				697F25251D263DC3002FD55C /* SDWebImagePrefetcher.h */,
+				697F25261D263DC3002FD55C /* SDWebImagePrefetcher.m */,
+				697F25271D263DC3002FD55C /* UIButton+WebCache.h */,
+				697F25281D263DC3002FD55C /* UIButton+WebCache.m */,
+				697F25291D263DC3002FD55C /* UIImage+GIF.h */,
+				697F252A1D263DC3002FD55C /* UIImage+GIF.m */,
+				697F252B1D263DC3002FD55C /* UIImage+MultiFormat.h */,
+				697F252C1D263DC3002FD55C /* UIImage+MultiFormat.m */,
+				697F252D1D263DC3002FD55C /* UIImage+WebP.h */,
+				697F252E1D263DC3002FD55C /* UIImage+WebP.m */,
+				697F252F1D263DC3002FD55C /* UIImageView+HighlightedWebCache.h */,
+				697F25301D263DC3002FD55C /* UIImageView+HighlightedWebCache.m */,
+				697F25311D263DC3002FD55C /* UIImageView+WebCache.h */,
+				697F25321D263DC3002FD55C /* UIImageView+WebCache.m */,
+				697F25331D263DC3002FD55C /* UIView+WebCacheOperation.h */,
+				697F25341D263DC3002FD55C /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		697F254D1D263F24002FD55C /* IMages */ = {
+			isa = PBXGroup;
+			children = (
+				697F258C1D263F3F002FD55C /* set.png */,
+				697F254E1D263F24002FD55C /* back.png */,
+				697F254F1D263F24002FD55C /* bad face.png */,
+				697F25501D263F24002FD55C /* bg.png */,
+				697F25511D263F24002FD55C /* bottom frame.png */,
+				697F25521D263F24002FD55C /* Buy Coins.png */,
+				697F25531D263F24002FD55C /* Buy Coins2.png */,
+				697F25541D263F24002FD55C /* cancel.png */,
+				697F25551D263F24002FD55C /* change mask.png */,
+				697F25561D263F24002FD55C /* choose from lib.png */,
+				697F25571D263F24002FD55C /* done.png */,
+				697F25581D263F24002FD55C /* get coins for free.png */,
+				697F25591D263F24002FD55C /* get your mask on.png */,
+				697F255A1D263F24002FD55C /* goodface.png */,
+				697F255B1D263F24002FD55C /* lock.png */,
+				697F255C1D263F24002FD55C /* mrsmonster.ttf */,
+				697F255D1D263F24002FD55C /* next.png */,
+				697F255E1D263F24002FD55C /* previous.png */,
+				697F255F1D263F24002FD55C /* rate this app.png */,
+				697F25601D263F24002FD55C /* rate.png */,
+				697F25611D263F24002FD55C /* reset.png */,
+				697F25621D263F24002FD55C /* restore.png */,
+				697F25631D263F24002FD55C /* romove ads.png */,
+				697F25641D263F24002FD55C /* sample.png */,
+				697F25651D263F24002FD55C /* save.png */,
+				697F25661D263F24002FD55C /* scary cam.png */,
+				697F25671D263F24002FD55C /* settings.png */,
+				697F25681D263F24002FD55C /* share.png */,
+				697F25691D263F24002FD55C /* take a pic.png */,
+				697F256A1D263F24002FD55C /* top frame.png */,
+				697F256B1D263F24002FD55C /* unlocked.png */,
+				697F256C1D263F24002FD55C /* watch video for 5.png */,
+			);
+			name = IMages;
+			path = sliced;
+			sourceTree = "<group>";
+		};
+		697F25961D26409F002FD55C /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				697F24E51D263BB5002FD55C /* Main.storyboard */,
+				697F258E1D263FB1002FD55C /* Main_iPhone6.storyboard */,
+				697F25901D26401D002FD55C /* Main_iPhone6p.storyboard */,
+				697F25921D264055002FD55C /* Main_iPhone5.storyboard */,
+				697F25941D26407F002FD55C /* Main_ipad.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		697F25CF1D2649D0002FD55C /* SupportingPlist */ = {
+			isa = PBXGroup;
+			children = (
+				697F254B1D263EAA002FD55C /* ScaryCam.plist */,
+			);
+			name = SupportingPlist;
+			sourceTree = "<group>";
+		};
+		F6FDA728E1410501E789CCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697F25CD1D264976002FD55C /* GoogleMobileAds.framework */,
+				697F25CB1D26495F002FD55C /* Ogg.framework */,
+				697F25C91D26492F002FD55C /* Vorbis.framework */,
+				697F25B01D264230002FD55C /* AVFoundation.framework */,
+				697F25AE1D264208002FD55C /* GoogleMobileAds.framework */,
+				697F259F1D264138002FD55C /* libz.tbd */,
+				697F25491D263E34002FD55C /* GoogleMobileAds.framework */,
+				697F25471D263DEE002FD55C /* AudioToolbox.framework */,
+				697F25451D263DE6002FD55C /* OpenAL.framework */,
+				8B7FE21215117F0A06C12A5F /* libPods-ScaryCam.a */,
+				B335DE59EC25E8F319DC1EA7 /* libPods-ScaryCamTests.a */,
+				41977125A7A275F483E20233 /* libPods-ScaryCamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +486,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F25061D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCam" */;
 			buildPhases = (
+				373301169A8E8212776B543C /* 📦 Check Pods Manifest.lock */,
 				697F24D51D263BB5002FD55C /* Sources */,
 				697F24D61D263BB5002FD55C /* Frameworks */,
 				697F24D71D263BB5002FD55C /* Resources */,
+				556410EA6030774D9B49CC5B /* 📦 Embed Pods Frameworks */,
+				D24D6A0EB071FAC8D932A71C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +506,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F25091D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamTests" */;
 			buildPhases = (
+				7D772F511E0FA328AB500E2E /* 📦 Check Pods Manifest.lock */,
 				697F24EE1D263BB5002FD55C /* Sources */,
 				697F24EF1D263BB5002FD55C /* Frameworks */,
 				697F24F01D263BB5002FD55C /* Resources */,
+				4F5C4FC60BD486E0FCD9F10A /* 📦 Embed Pods Frameworks */,
+				A9337BDEFA35C430BBB98619 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +527,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 697F250C1D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamUITests" */;
 			buildPhases = (
+				B7E605595639843BA512BC87 /* 📦 Check Pods Manifest.lock */,
 				697F24F91D263BB5002FD55C /* Sources */,
 				697F24FA1D263BB5002FD55C /* Frameworks */,
 				697F24FB1D263BB5002FD55C /* Resources */,
+				3ED4D167133A109A9763056C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +590,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697F25771D263F24002FD55C /* get coins for free.png in Resources */,
 				697F24EC1D263BB5002FD55C /* LaunchScreen.storyboard in Resources */,
+				697F25831D263F24002FD55C /* sample.png in Resources */,
+				697F25881D263F24002FD55C /* take a pic.png in Resources */,
+				697F25911D26401D002FD55C /* Main_iPhone6p.storyboard in Resources */,
+				697F25951D26407F002FD55C /* Main_ipad.storyboard in Resources */,
+				697F257A1D263F24002FD55C /* lock.png in Resources */,
+				697F25811D263F24002FD55C /* restore.png in Resources */,
+				697F25871D263F24002FD55C /* share.png in Resources */,
+				697F25791D263F24002FD55C /* goodface.png in Resources */,
+				697F25861D263F24002FD55C /* settings.png in Resources */,
+				697F25751D263F24002FD55C /* choose from lib.png in Resources */,
+				697F25721D263F24002FD55C /* Buy Coins2.png in Resources */,
+				697F257C1D263F24002FD55C /* next.png in Resources */,
+				697F25851D263F24002FD55C /* scary cam.png in Resources */,
+				697F25801D263F24002FD55C /* reset.png in Resources */,
+				697F25761D263F24002FD55C /* done.png in Resources */,
+				697F256E1D263F24002FD55C /* bad face.png in Resources */,
+				697F256D1D263F24002FD55C /* back.png in Resources */,
+				697F257D1D263F24002FD55C /* previous.png in Resources */,
+				697F258D1D263F3F002FD55C /* set.png in Resources */,
+				697F25741D263F24002FD55C /* change mask.png in Resources */,
+				697F25731D263F24002FD55C /* cancel.png in Resources */,
+				697F25701D263F24002FD55C /* bottom frame.png in Resources */,
+				697F25711D263F24002FD55C /* Buy Coins.png in Resources */,
 				697F24E91D263BB5002FD55C /* Assets.xcassets in Resources */,
+				697F256F1D263F24002FD55C /* bg.png in Resources */,
+				697F257E1D263F24002FD55C /* rate this app.png in Resources */,
+				697F258F1D263FB1002FD55C /* Main_iPhone6.storyboard in Resources */,
 				697F24E71D263BB5002FD55C /* Main.storyboard in Resources */,
+				697F258A1D263F24002FD55C /* unlocked.png in Resources */,
+				697F257B1D263F24002FD55C /* mrsmonster.ttf in Resources */,
+				697F257F1D263F24002FD55C /* rate.png in Resources */,
+				697F25931D264055002FD55C /* Main_iPhone5.storyboard in Resources */,
+				697F25821D263F24002FD55C /* romove ads.png in Resources */,
+				697F258B1D263F24002FD55C /* watch video for 5.png in Resources */,
+				697F25891D263F24002FD55C /* top frame.png in Resources */,
+				697F254C1D263EAA002FD55C /* ScaryCam.plist in Resources */,
+				697F25841D263F24002FD55C /* save.png in Resources */,
+				697F25781D263F24002FD55C /* get your mask on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +649,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		373301169A8E8212776B543C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED4D167133A109A9763056C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryCamUITests/Pods-ScaryCamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5C4FC60BD486E0FCD9F10A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryCamTests/Pods-ScaryCamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		556410EA6030774D9B49CC5B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryCam/Pods-ScaryCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D772F511E0FA328AB500E2E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9337BDEFA35C430BBB98619 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryCamTests/Pods-ScaryCamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E605595639843BA512BC87 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D24D6A0EB071FAC8D932A71C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScaryCam/Pods-ScaryCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		697F24D51D263BB5002FD55C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697F25C01D264429002FD55C /* ChangeMaskCollectionViewCell.m in Sources */,
+				697F25421D263DC3002FD55C /* UIImageView+HighlightedWebCache.m in Sources */,
+				697F25C51D2644EB002FD55C /* QueueFTP.m in Sources */,
+				697F25401D263DC3002FD55C /* UIImage+MultiFormat.m in Sources */,
+				697F253B1D263DC3002FD55C /* SDWebImageDownloaderOperation.m in Sources */,
 				697F24E41D263BB5002FD55C /* ViewController.m in Sources */,
+				697F25381D263DC3002FD55C /* SDWebImageCompat.m in Sources */,
+				697F253F1D263DC3002FD55C /* UIImage+GIF.m in Sources */,
+				697F25C21D264429002FD55C /* EditScreenViewController.m in Sources */,
+				6943C7B21D2A8F2700B7F11E /* SVProgressHUD.m in Sources */,
+				697F253D1D263DC3002FD55C /* SDWebImagePrefetcher.m in Sources */,
 				697F24E11D263BB5002FD55C /* AppDelegate.m in Sources */,
+				697F25111D263C82002FD55C /* SPUserResizableView.m in Sources */,
+				697F25BF1D264429002FD55C /* SettingViewController.m in Sources */,
+				697F25411D263DC3002FD55C /* UIImage+WebP.m in Sources */,
+				697F25431D263DC3002FD55C /* UIImageView+WebCache.m in Sources */,
+				697F253A1D263DC3002FD55C /* SDWebImageDownloader.m in Sources */,
+				697F25C11D264429002FD55C /* ChangeMaskViewController.m in Sources */,
+				697F25441D263DC3002FD55C /* UIView+WebCacheOperation.m in Sources */,
+				697F253E1D263DC3002FD55C /* UIButton+WebCache.m in Sources */,
+				697F25351D263DC3002FD55C /* MKAnnotationView+WebCache.m in Sources */,
+				697F25361D263DC3002FD55C /* NSData+ImageContentType.m in Sources */,
 				697F24DE1D263BB5002FD55C /* main.m in Sources */,
+				697F253C1D263DC3002FD55C /* SDWebImageManager.m in Sources */,
+				697F25391D263DC3002FD55C /* SDWebImageDecoder.m in Sources */,
+				697F25371D263DC3002FD55C /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +941,16 @@
 		};
 		697F25071D263BB6002FD55C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7B27E9290A4048D068A140 /* Pods-ScaryCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ScaryCam/SDWebImage",
+				);
 				INFOPLIST_FILE = ScaryCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +959,16 @@
 		};
 		697F25081D263BB6002FD55C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD3C87FCB3F6E66B5EB11FF /* Pods-ScaryCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ScaryCam/SDWebImage",
+				);
 				INFOPLIST_FILE = ScaryCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fluxtech.ScaryCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +977,7 @@
 		};
 		697F250A1D263BB6002FD55C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A666E36FBB6DA6C2D1D0DDDF /* Pods-ScaryCamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScaryCamTests/Info.plist;
@@ -445,6 +990,7 @@
 		};
 		697F250B1D263BB6002FD55C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6779E5A6489858C997D69C /* Pods-ScaryCamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScaryCamTests/Info.plist;
@@ -457,6 +1003,7 @@
 		};
 		697F250D1D263BB6002FD55C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89A82C8D7DE63DD6888BB29 /* Pods-ScaryCamUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ScaryCamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +1016,7 @@
 		};
 		697F250E1D263BB6002FD55C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA77BE60CC1EBDB595B9F6F5 /* Pods-ScaryCamUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ScaryCamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +1046,7 @@
 				697F25081D263BB6002FD55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697F25091D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +1055,7 @@
 				697F250B1D263BB6002FD55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697F250C1D263BB6002FD55C /* Build configuration list for PBXNativeTarget "ScaryCamUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +1064,7 @@
 				697F250E1D263BB6002FD55C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
